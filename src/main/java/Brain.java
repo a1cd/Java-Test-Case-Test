@@ -8,4 +8,8 @@ public class Brain {
     public void setHasFrontalLobe(boolean hasFrontalLobe) {
         this.hasFrontalLobe = hasFrontalLobe;
     }
+
+    public static void main(String[] args) {
+        System.out.println("hi");
+    }
 }

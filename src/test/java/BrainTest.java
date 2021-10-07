@@ -9,7 +9,7 @@ class BrainTest {
         Brain brain = new Brain();
         brain.hasFrontalLobe = false;
         assert(!brain.isHasFrontalLobe());
-
+        System.out.println("hi from isHasFrontalLobe");
     }
 
     @Test
@@ -17,5 +17,6 @@ class BrainTest {
         Brain brain = new Brain();
         brain.setHasFrontalLobe(false);
         assert(!brain.hasFrontalLobe);
+        System.out.println("hi from setHasFrontalLobe");
     }
 }

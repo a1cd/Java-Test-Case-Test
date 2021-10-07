@@ -19,4 +19,9 @@ class BrainTest {
         assert(!brain.hasFrontalLobe);
         System.out.println("hi from setHasFrontalLobe");
     }
+
+    @Test
+    void hi() {
+        assert false;
+    }
 }

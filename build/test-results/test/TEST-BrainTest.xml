@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BrainTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-07T20:38:15" hostname="st-24wilberev" time="0.039">
+<testsuite name="BrainTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-07T21:10:47" hostname="st-24wilberev" time="0.034">
   <properties/>
-  <testcase name="isHasFrontalLobe()" classname="BrainTest" time="0.035"/>
+  <testcase name="isHasFrontalLobe()" classname="BrainTest" time="0.03"/>
   <testcase name="setHasFrontalLobe()" classname="BrainTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[hi from isHasFrontalLobe
+hi from setHasFrontalLobe
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
